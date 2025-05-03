@@ -1,0 +1,10 @@
+.header-text {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}

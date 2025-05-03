@@ -1,0 +1,11 @@
+.alerts {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: 70%;
+}
+
+.alerts > div {
+    display: flex;
+    justify-content: center;
+}
