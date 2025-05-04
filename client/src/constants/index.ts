@@ -1,7 +1,8 @@
 import { blue, green, yellow } from "@mui/material/colors";
 import { StatusTypes } from "../types";
 
-export const API_URL: string = 'http://localhost:5001';
+export const API_URL: string = process.env.REACT_APP_API_URL || 'http://localhost:5001';
+
 export const DEFAULT_ALERT = {
     error: 'Произошла ошибка! Пожалуйста, попробуйте снова.',
     success: '',
