@@ -30,5 +30,10 @@ router.post("/register", async (req, res) => {
         return res.json({token, name, message: "Пользователь зарегестрирован успешно!"});
     });
 });
+
+router.get('/', (req, res) => {
+    res.send('Backend запущен и работает!');
+  });
+  
   
 module.exports = router;
